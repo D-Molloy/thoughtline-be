@@ -10,7 +10,7 @@ module.exports = (picture, id) => {
 
   const params = {
     ACL: 'public-read',
-    Bucket: 'thoughtline', // pass your bucket name
+    Bucket: 'thoughtline-v3', // pass your bucket name
     Key: `${id}.jpeg`, // file will be saved as the file name will be the user _id.jpeg
     Body: buf,
     ContentEncoding: 'base64',
