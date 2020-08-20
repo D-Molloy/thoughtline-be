@@ -44,7 +44,7 @@
   "homepage": "https://github.com/dead-bucket/back-end#readme",
   "dependencies": {
     "aws-sdk": "^2.355.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "chalk": "^2.4.2",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
